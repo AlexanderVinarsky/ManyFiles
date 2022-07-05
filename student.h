@@ -11,4 +11,4 @@ struct Student
 
 double getAverageMark(Student s);
 void fillStudentByHand(Student& s);
-void printStudent(Student s, bool);
+void printStudent(Student s, bool detailed = false);

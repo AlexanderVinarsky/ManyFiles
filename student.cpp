@@ -28,7 +28,7 @@ void fillStudentByHand(Student& s)
         scanf_s("%d ", &s.marks[i]);
     }
 }
-void printStudent(Student s, bool detailed = false)
+void printStudent(Student s, bool detailed)
 {
     printf("Студент: %s, возраст: %i, оценок: %d\n",
         s.name, s.age, s.marks_count);
